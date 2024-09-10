@@ -1,5 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import nasa_logo from  "../assets/nasalogo.png";
+import calculator from  "../assets/calculator.png";
 import project5 from "../assets/Project_AR.png";
 import project6 from "../assets/pokeapi.png";
 
@@ -51,18 +52,18 @@ export const EXPERIENCES = [
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
   },
 ];
-
+ 
 export const PROJECTS = [
   {
-    title: "React Calculator",
-    image: project1,
+    title: "React Calculator", 
+    image: calculator,
     description:
       "An application that mimics the procedure of a calculator, but without using libraries related to calculation. All using react principles.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
     title: "Nasa APi MERN",
-    image: project2,
+    image: nasa_logo,
     description:
       "NASA application, which contains a map with detailed information about asteroids, as well as a store to purchase the desired asteroids",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
