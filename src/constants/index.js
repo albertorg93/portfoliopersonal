@@ -1,7 +1,5 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/Project_AR.png";
 import project6 from "../assets/pokeapi.png";
 
@@ -21,48 +19,52 @@ I continuously seek opportunities to refine my craft and contribute to meaningfu
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "May 2023 - Present",
+    role: "IT Consultant",
+    company: "EDISA",
+    description: "Consulting in the area of financial ERP, with experience in the implementation,customization, and optimization of solutions related to purchasing, sales, invoices,shipping notes, accounting, warehouse management, stock management, andeverything related to company management. Experience in developing and using PL/SQL in Oracle databases for ERP-relatedinformation processing.",
+    technologies: ["ERP Libra", "Oracle PL/SQL"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    year: "July 2022 - April 2023",
+    role: "Junior ITSM Consultant",
+    company: "AMBIT BST",
+    description: `Development of a user portal with HTML and CSS, through the use of the Easyvista Service Apps platform. Use of Microsoft SQL Server Management tools for project data management. Configuration of project-related information using EasyVista Service Manager.
+    Obtained the Fundamentals Certification from EasyVista.`,
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    year: "March 2019 -  October 2021",
+    role: "Infraestructure System Technician",
+    company: "Everis an NTT Data Company",
+    description: `At Mutua Madrileña:
+    Administration of project and team management tools (Atlassian JIRA and Confluence).
+    Creation of processes and definition of SLAs. Execution and review of reports.
+    Reporting in Power BI. Management of CMDB-related Configuration Items (CIs).
+    Support and participation in preparing the annual IT infrastructure     budget.                                    
+    At Mapfre:
+    Administration of Operators, Roles, and Groups in Service Manager and IT ticketing. Extraction, execution, and reporting on incidents.
+    Knowledge in Mapfre reporting (CaX and BOE reports with Crystal and SQL).
+    In relation to the projects:
+    Knowledge and experience in Big Data: Hadoop, Cloudera Manager, Batch, Architectures (Sqoop, NIFI, Spark, HDFS, HBase, Hive)
+    `,
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "React Calculator",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "An application that mimics the procedure of a calculator, but without using libraries related to calculation. All using react principles.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "Nasa APi MERN",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "NASA application, which contains a map with detailed information about asteroids, as well as a store to purchase the desired asteroids",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
   },
   {
@@ -80,6 +82,14 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Javascript"],
   },
 ];
+
+export const EXTRA = [{
+    texto: `English: Intermediate Level (B1).`},
+  { texto:`Driving license B (2013)` },
+  { texto:`ITIL V4 Foundation Certified and EasyVista Foundations`},
+  { texto:`Experience in projects using Agile methodologies (Scrum and Kanban)`},
+];
+
 
 export const CONTACT = {
   linkedin: "https://www.linkedin.com/in/alberto-rodriguez-garcia-904074161/",

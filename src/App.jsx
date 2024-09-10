@@ -4,6 +4,7 @@ import About from "./components/About"
 import Tecnologies from "./components/Tecnologies"
 import Experience from "./components/Experience"
 import Projects from "./components/Projects"
+import Extra from "./components/Extra"
 import Contact from "./components/Contact"
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       <Tecnologies/>
       <Experience/>
       <Projects/>
+      <Extra/>
       <Contact/>
       </div>
       
