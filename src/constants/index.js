@@ -60,7 +60,7 @@ export const PROJECTS = [
     image: calculator,
     description:
       "An application that mimics the procedure of a calculator, but without using libraries related to calculation. All using react principles.",
-    url: "",
+    url: "https://albcalculator.netlify.app/",
     technologies: ["HTML", "CSS", "React"],
   },
   {
