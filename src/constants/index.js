@@ -13,8 +13,9 @@ Backend: MySQL, NodeJS and MongoDB.
 In systems and networks: Phyton, php, Cisco packet tracer, wireshark, powershell, bash, cryptography.
 I like learning languages too and, as a curious fact, I was close to getting HSK2 Chinese title.`;
 
-export const ABOUT_TEXT = `As a passionate and dedicated software developer, I thrive on solving complex problems and transforming ideas into innovative solutions. I have a keen ability to design, dev>elop, and implement scalable software applications.
-I work across the full software development lifecycle, from initial requirements gathering to deployment and maintenance. My experience includes front-end and back-end development, database management, and system integration, which allows me to deliver user-centric applications.
+export const ABOUT_TEXT = `As a passionate and dedicated software developer, I thrive on solving complex problems and transforming ideas into innovative solutions. I have a keen ability to design, develop, and implement scalable software applications.
+I work across the full software development lifecycle, from initial requirements gathering to deployment and maintls
+enance. My experience includes front-end and back-end development, database management, and system integration, which allows me to deliver user-centric applications.
 In addition, I have a collaborative mindset and great communication abilities, enabling me to work effectively within cross-functional teams. I attem to learn new technologies and stay updated with industry trends, which are always innovating.
 I continuously seek opportunities to refine my craft and contribute to meaningful projects. Whether working on individual assignments or as part of a team, I bring creativity, precision, and a problem-solving attitude to every task.`;
 
@@ -59,20 +60,23 @@ export const PROJECTS = [
     image: calculator,
     description:
       "An application that mimics the procedure of a calculator, but without using libraries related to calculation. All using react principles.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    url: "",
+    technologies: ["HTML", "CSS", "React"],
   },
   {
     title: "Nasa APi MERN",
     image: nasa_logo,
     description:
       "NASA application, which contains a map with detailed information about asteroids, as well as a store to purchase the desired asteroids",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    url: "",
+    technologies: ["HTML", "SCSS", "React", "MongoDB", "Javascript"],
   },
   {
     title: "Portfolio Website",
     image: project5,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
+    url: "https://portfolioalberto93.netlify.app/",
     technologies: ["HTML", "CSS", "React", "Tailwind"],
   },
   {
@@ -80,6 +84,7 @@ export const PROJECTS = [
     image: project6,
     description:
       "Pokeapi project that brings information about pokemons, using html css and javascript",
+    url: "https://albertorg93.github.io/pokeApi/",
     technologies: ["HTML", "CSS", "Javascript"],
   },
 ];
