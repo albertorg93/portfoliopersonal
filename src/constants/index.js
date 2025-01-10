@@ -12,7 +12,7 @@ Therefore, my knowledge is:
 Frontend: HTML5, CSS3, JavaScript. React, Bootstrap, tailwind.
 Backend: MySQL, NodeJS, Express and MongoDB. Kubernetes
 In Systems and Networks: Phyton, PHP, Cisco Packet Tracer, Wireshark, Powershell, Bash, Cryptography...
-My english leves is intermediate, and I like learning languages too. As a curious fact, I was close to getting HSK2 Chinese title.`;
+My english level is intermediate, and I like learning languages too. As a curious fact, I was close to getting HSK2 Chinese title.`;
 
 export const ABOUT_TEXT = `As a passionate and dedicated fullstack web developer, I thrive on solving complex problems and transforming ideas into innovative solutions. I have a keen ability to design, develop, and implement scalable software applications.
 I work across the full software development lifecycle, from initial requirements gathering to deployment and maintls
