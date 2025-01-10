@@ -5,15 +5,16 @@ import project5 from "../assets/Project_AR.png";
 import project6 from "../assets/pokeapi.png";
 
 export const HERO_CONTENT = `My name is Alberto, I am 31 years old and I like Full Stack Web Development and everything related to programming.
-My training as Developer was at The Bridge School, in Madrid, with a 480hours Bootcamp.
-I also have a higher degree in Network Information Systems Administration(two-years course).
+I have more than 4 years of experience in technology consulting, in environments such as HP Service Manager, EasyVista or ERPs. I have used tools such as HTML, CSS, Javascript and SQL, as well as in agile methodologies such as Scrum or Kanban.
+My training as Developer was at The Bridge School, with a 480hours Bootcamp.
+I also have a higher degree in Network Information Systems Administration.
 Therefore, my knowledge is:
-HTML5, CSS3, JavaScript. React, Express. Bootstrap, MERN.
-Backend: MySQL, NodeJS and MongoDB.
-In systems and networks: Phyton, php, Cisco packet tracer, wireshark, powershell, bash, cryptography.
-I like learning languages too and, as a curious fact, I was close to getting HSK2 Chinese title.`;
+Frontend: HTML5, CSS3, JavaScript. React, Bootstrap, tailwind.
+Backend: MySQL, NodeJS, Express and MongoDB. Kubernetes
+In Systems and Networks: Phyton, PHP, Cisco Packet Tracer, Wireshark, Powershell, Bash, Cryptography...
+My english leves is intermediate, and I like learning languages too. As a curious fact, I was close to getting HSK2 Chinese title.`;
 
-export const ABOUT_TEXT = `As a passionate and dedicated software developer, I thrive on solving complex problems and transforming ideas into innovative solutions. I have a keen ability to design, develop, and implement scalable software applications.
+export const ABOUT_TEXT = `As a passionate and dedicated fullstack web developer, I thrive on solving complex problems and transforming ideas into innovative solutions. I have a keen ability to design, develop, and implement scalable software applications.
 I work across the full software development lifecycle, from initial requirements gathering to deployment and maintls
 enance. My experience includes front-end and back-end development, database management, and system integration, which allows me to deliver user-centric applications.
 In addition, I have a collaborative mindset and great communication abilities, enabling me to work effectively within cross-functional teams. I attem to learn new technologies and stay updated with industry trends, which are always innovating.

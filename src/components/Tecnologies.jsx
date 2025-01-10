@@ -1,6 +1,9 @@
 import { RiReactjsLine } from "react-icons/ri"
+import { TiHtml5 } from "react-icons/ti"
+import { IoLogoCss3 } from "react-icons/io5";
 import { TbBrandNextjs } from "react-icons/tb"
 import { SiMongodb } from "react-icons/si"
+import { SiMysql } from "react-icons/si";
 import { DiRedis } from "react-icons/di"
 import { FaNodeJs } from "react-icons/fa"
 import { BiLogoPostgresql } from "react-icons/bi"
@@ -45,7 +48,7 @@ const Tecnologies = () => {
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-        <TbBrandNextjs className="text-7xl"/>
+        <TiHtml5 className="text-7xl text-red-500"/>
         </motion.div>
         <motion.div
         variants={iconVariants(1)}
@@ -59,7 +62,7 @@ const Tecnologies = () => {
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-        <DiRedis className="text-7xl text-red-700"/>
+        <IoLogoCss3 className="text-7xl text-sky-700"/>
         </motion.div>
         <motion.div
         variants={iconVariants(2.5)}
@@ -73,7 +76,7 @@ const Tecnologies = () => {
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-        <BiLogoPostgresql className="text-7xl text-sky-700"/>
+        <SiMysql className="text-7xl text-sky-700"/>
         </motion.div>
 
     </motion.div>
